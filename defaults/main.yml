@@ -1,0 +1,17 @@
+---
+# defaults file for mysql
+
+mysql_packages:
+  - mariadb
+  - mariadb-server
+  - mariadb-libs
+  - MySQL-python
+  - perl-DBD-MySQL
+
+mysql_datadir: /var/lib/mysql
+mysql_port: 3306
+mysql_bind_address: '0.0.0.0'
+mysql_root_password: s3cret
+mysql_daemon: 'mariadb'
+
+

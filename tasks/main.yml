@@ -1,0 +1,9 @@
+---
+# tasks file for mysql
+
+- name: Install MySQL packages
+  yum: "name={{ item }} state=installed"
+  with_items: "{{ mysql_packages }}"
+
+- import_tasks: configure.yml
+
