@@ -1,7 +1,7 @@
-Role Name
+Role mysql
 =========
 
-A brief description of the role goes here.
+This is a test role
 
 Requirements
 ------------
